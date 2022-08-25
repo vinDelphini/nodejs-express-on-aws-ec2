@@ -133,3 +133,41 @@ git checkout master
 git branch main master -f
 git checkout main
 git push origin main -f
+ls
+chmod 755 /opt/codedeploy-agent/deployment-root
+cd /opt/codedeploy-agent/deployment-root/
+ls
+cd
+sudo chmod 755 /opt/codedeploy-agent/deployment-root
+ls
+clear
+git push origin main
+ls
+git init
+git push origin main
+ls
+git push origin main
+ls
+ls -a
+cd express-app/
+ls
+ls -a
+cd ..
+ls
+ls -a
+git remote -v
+git pull origin main
+git checkout master
+git branch main master -f
+git checkout main
+git push origin main -f
+git add .
+git commit -m "com"
+git push origin main
+ls
+sudo chmod +x appspec.yml 
+sudo vi appspec.yml 
+git add .
+git commit -m "permissions"
+git push origin main
+ls
